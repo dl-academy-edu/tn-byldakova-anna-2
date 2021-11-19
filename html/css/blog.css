@@ -1,0 +1,81 @@
+.blog {
+    display: flex;
+}
+
+.post {
+    flex-direction: column;
+    max-width: 380px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+.data {
+    font-family: Open Sans;
+    font-size: 16px;
+    line-height: 22px;
+    color: #818181;
+}
+
+.h2blog {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 31px;
+    text-transform: none;
+}
+
+.pblog {
+    font-family: Open Sans;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.all_posts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products__scroll {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.arrow__scroll,
+.arrow__scroll,
+.button__scroll {
+    border: transparent;
+    background-color: transparent;
+    padding: 0;
+    cursor: pointer;
+}
+
+.button__scroll {
+    font-family: "Montserrat", "Comic Sans MS", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1e0606;
+}
+
+.button__scroll:hover {
+    opacity: 0.6;
+}
+
+.button__scroll:active {
+    color: #c29974;
+}
+
+.product__num {
+    display: flex;
+    justify-content: space-between;
+    width: 234px;
+}
+
+.button__scroll_active {
+    color: #c29974;
+}
