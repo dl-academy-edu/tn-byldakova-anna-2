@@ -99,6 +99,7 @@ h3 {
 .container {
     max-width: 1180px;
     margin: 0 auto;
+    width: 100%;
 }
 
 .undoted {
@@ -469,7 +470,7 @@ footer {
 .company_raiting {
     align-items: center;
     display: flex;
-    margin-right: 30px;
+    margin-right: 100px;
 }
 .company_raiting a {
     margin-right: 97px;
