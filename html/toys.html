@@ -34,97 +34,99 @@
             </ul>
         </nav>
         <a href="#"><img src="img/serch.svg" alt="search" class="header__loop"></a>
-        <a class="header-link" href="contact.html">Contact  Us</a>
+        <a class="header_contact_us" href="contact.html">Contact  Us</a>
     </header>
 
     <main>
-        <section class="breadcrumb__heading container">
-            <h1 class="toy__heading " tabindex="0">Toy for kids</h1>
-            <nav class="breadcrumb">
-                <ul class="breadcrumb__list undoted">
-                    <li class="breadcrumb__item">
-                        <a href="index.html" class="breadcrumb__link">Home</a>
-                    </li>
-                    <li class="breadcrumb__item">
-                        <a href="products.html" class="breadcrumb__link">Catalog</a>
-                    </li>
-                    <li class="breadcrumb__item">
-                        <a href="#" class="breadcrumb__link breadcrumb__link_active">Toys</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <aside class="filter choice ">
-            <div class="container">
-                <form action="#" class="filter__form">
-                    <fieldset>
-                        <div class="label-wrapper label-wrapper-range" tabindex="0">
-                            <label for="range-input">Cost</label>
-                            <input type="range" id="range-input" min="0" max="500">
-                        </div>
-                        <div class="range__period">
-                            <span class="range__num" tabindex="0">0</span>
-                            <span class="range__num" tabindex="0">500</span>
-                        </div>
-                    </fieldset>
-                    <fieldset class="field-range">
-                        <legend>Color</legend>
-                        <ul class="undoted checkbox-list">
-                            <li>
-                                <input type="checkbox" id="check-black" class="checkbox-input" checked />
-                                <label for="check-black" class="checkbox-label" tabindex="0">Black</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="check-blue" class="checkbox-input" />
-                                <label for="check-blue" class="checkbox-label" tabindex="0">Blue</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="check-green" class="checkbox-input" />
-                                <label for="check-green" class="checkbox-label" tabindex="0">Green</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="check-white" class="checkbox-input" />
-                                <label for="check-white" class="checkbox-label" tabindex="0">White</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="field-range">
-                        <legend>Delivery</legend>
-                        <ul class="undoted radio-list">
-                            <li>
-                                <input type="radio" id="radio-free" class="radio-input" name="shipping" />
-                                <label for="radio-free" class="radio-label" tabindex="0">Free shipping</label>
-                            </li>
-                            <li>
-                                <input type="radio" id="radio-fast" class="radio-input" name="shipping" checked />
-                                <label for="radio-fast" class="radio-label" tabindex="0">Fast shipping</label>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <fieldset class="radio-limit">
-                        <legend>Amount</legend>
-                        <ul class="undoted radio-list radio-list-limit">
-                            <li tabindex="0">
-                                <input type="radio" id="radio-five" class="radio-input" name="amount">
-                                <label for="radio-five" class="radio-label"></label>
-                                <span class="radio-text">0-5</span>
-                            </li>
-                            <li tabindex="0">
-                                <input type="radio" id="radio-twenty" class="radio-input" name="amount">
-                                <label for="radio-twenty" class="radio-label"></label>
-                                <span class="radio-text radio-text_twenty">10-20</span>
-                            </li>
-                            <li tabindex="0">
-                                <input type="radio" id="radio-fifty" class="radio-input" name="amount">
-                                <label for="radio-fifty" class="radio-label"></label>
-                                <span class="radio-text radio-text_fifty">20-50</span>
-                            </li>
-                        </ul>
-                    </fieldset>
-                    <button type="submit" class="button button_filter" tabindex="0">Apply</button>
-                </form>
+        <section> 
+            <div class="breadcrumb__heading container">
+                <h1 class="toy__heading " tabindex="0">Toy for kids</h1>
+                <nav class="breadcrumb">
+                    <ul class="breadcrumb__list undoted">
+                        <li class="breadcrumb__item">
+                            <a href="index.html" class="breadcrumb__link">Home</a>
+                        </li>
+                        <li class="breadcrumb__item">
+                            <a href="products.html" class="breadcrumb__link">Catalog</a>
+                        </li>
+                        <li class="breadcrumb__item">
+                            <span class="breadcrumb__link breadcrumb__link_active">Toys</span>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </aside>
+            <aside class="filter choice ">
+                <div class="container">
+                    <div class="filter__form">
+                        <fieldset>
+                            <div class="label-wrapper label-wrapper-range" tabindex="0">
+                                <label for="range-input">Cost</label>
+                                <input type="range" id="range-input" min="0" max="500">
+                            </div>
+                            <div class="range__period">
+                                <span class="range__num" tabindex="0">0</span>
+                                <span class="range__num" tabindex="0">500</span>
+                            </div>
+                        </fieldset>
+                        <fieldset class="field-range">
+                            <legend>Color</legend>
+                            <ul class="undoted checkbox-list">
+                                <li>
+                                    <input type="checkbox" id="check-black" class="checkbox-input" checked />
+                                    <label for="check-black" class="checkbox-label" tabindex="0">Black</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-blue" class="checkbox-input" />
+                                    <label for="check-blue" class="checkbox-label" tabindex="0">Blue</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-green" class="checkbox-input" />
+                                    <label for="check-green" class="checkbox-label" tabindex="0">Green</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-white" class="checkbox-input" />
+                                    <label for="check-white" class="checkbox-label" tabindex="0">White</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset class="field-range">
+                            <legend>Delivery</legend>
+                            <ul class="undoted radio-list">
+                                <li>
+                                    <input type="radio" id="radio-free" class="radio-input" name="shipping" />
+                                    <label for="radio-free" class="radio-label" tabindex="0">Free shipping</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="radio-fast" class="radio-input" name="shipping" checked />
+                                    <label for="radio-fast" class="radio-label" tabindex="0">Fast shipping</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <fieldset class="radio-limit">
+                            <legend>Amount</legend>
+                            <ul class="undoted radio-list radio-list-limit">
+                                <li tabindex="0">
+                                    <input type="radio" id="radio-five" class="radio-input" name="amount">
+                                    <label for="radio-five" class="radio-label"></label>
+                                    <span class="radio-text">0-5</span>
+                                </li>
+                                <li tabindex="0">
+                                    <input type="radio" id="radio-twenty" class="radio-input" name="amount">
+                                    <label for="radio-twenty" class="radio-label"></label>
+                                    <span class="radio-text radio-text_twenty">10-20</span>
+                                </li>
+                                <li tabindex="0">
+                                    <input type="radio" id="radio-fifty" class="radio-input" name="amount">
+                                    <label for="radio-fifty" class="radio-label"></label>
+                                    <span class="radio-text radio-text_fifty">20-50</span>
+                                </li>
+                            </ul>
+                        </fieldset>
+                        <button type="submit" class="button button_filter" tabindex="0">Apply</button>
+                    </div>
+                </div>
+            </aside>
+        </section>
         <section class="products container">
             <h3 class="hidden">Product</h3>
             <ul class="products__list undoted">
@@ -171,31 +173,35 @@
                     <a href="#" class="item__price">$56.00 USD</a>
                 </li>
             </ul>
-            <ul class="products__scroll undoted">
-                <li>
-                    <button type="button" class="arrow__scroll arrow__scroll_left" aria-label="arrow_left">
-                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4" />
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <div class="product__num">
-                        <a href="#" class="button__scroll button__scroll_active">1</a>
-                        <a href="#" class="button__scroll">2</a>
-                        <a href="#" class="button__scroll">3</a>
-                        <a href="#" class="button__scroll">4</a>
-                    </div>
-                </li>
-                <li>
-
-                    <button type="button" class="arrow__scroll arrow__scroll_rigth" aria-label="arrow_rigth">
-                        <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4" />
-                        </svg>
-                    </button>
-                </li>
-            </ul>
+            <div class="products__scroll undoted">
+                <button type="button" class="arrow__scroll arrow__scroll_left" aria-label="arrow_left">
+                    <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 2L3 15L16 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4" />
+                    </svg>
+                </button>
+            
+                <div class="product__num">
+                    <ul class="product__num undoted">
+                        <li>
+                            <a href="#" class="button__scroll button__scroll_active">1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button__scroll">2</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button__scroll">3</a>
+                        </li>
+                        <li>
+                            <a href="#" class="button__scroll">4</a>
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" class="arrow__scroll arrow__scroll_rigth" aria-label="arrow_rigth">
+                    <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M2 2L15 15L2 28" stroke="#1E0606" stroke-opacity="0.12" stroke-width="4" />
+                    </svg>
+                </button>
+            </div>
         </section>
     </main>
     
@@ -203,7 +209,7 @@
         <div class="container">
             <div class="footer__nav">
                 <div class="footer__menu">
-                    <h4>Navigation</h4>
+                    <p class=footer_p>Navigation</p>
                     <ul class="footer__list undoted">
                         <li>
                             <a href="#">About Us</a>
@@ -225,8 +231,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__info">
-                    <h4>Customer Information</h4>
+                <div class="footer__menu">
+                    <p class=footer_p>Customer Information</p>
                     <ul class="footer__list undoted">
                         <li>
                             <a href="contact.html">Contact Us</a>
@@ -249,19 +255,19 @@
                     </ul>
                 </div>
                 <div class="footer__contacts">
-                    <h4>Connect</h4>
+                    <p class=footer_p>Connect</p>
                     <div>
                         <form action="#" class="footer__form">
-                            <fieldset class="footer__fieldset">
+                            <fieldset class="subscribe_fieldset">
                                 <div>
                                     <label for="input-footer"></label>
-                                    <input type="email" placeholder="Email" class="footer__input" id="input-footer" />
+                                    <input type="email" placeholder="Email" class="subscribe_input" id="input-footer" />
                                 </div>
                             </fieldset>
                             <button type="submit" class="button contactus__button">Join</button>
                         </form>
                     </div>
-                    <ul class="footer__list footer__linklist undoted">
+                    <ul class="footer__list social_network undoted">
                         <li>
                             <a href="#">
                                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -315,26 +321,34 @@
                 </div>
             </div>
             <div class="footer__endinfo">
-                <div class="footer__raiting">
+                <div class="company_raiting">
                     <p>Company Rating</p>
-                    <div class="rating_block">
-                        <input name="rating" value="5" id="rating_5" type="radio" />
-                        <label for="rating_5" class="label_rating"></label>
-
-                        <input name="rating" value="4" id="rating_4" type="radio" />
-                        <label for="rating_4" class="label_rating"></label>
-
-                        <input name="rating" value="3" id="rating_3" type="radio" />
-                        <label for="rating_3" class="label_rating"></label>
-
-                        <input name="rating" value="2" id="rating_2" type="radio" />
-                        <label for="rating_2" class="label_rating"></label>
-
-                        <input name="rating" value="1" id="rating_1" type="radio" />
-                        <label for="rating_1" class="label_rating"></label>
-                    </div>
+                    <div class="stars-rating">
+                        <ul class="undoted">
+                            <li>
+                                <input name="rating" value="5" id="rating_5" type="radio" />
+                                <label for="rating_5" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="4" id="rating_4" type="radio" />
+                                <label for="rating_4" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="3" id="rating_3" type="radio" />
+                                <label for="rating_3" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="2" id="rating_2" type="radio" />
+                                <label for="rating_2" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="1" id="rating_1" type="radio" />
+                                <label for="rating_1" class="label_rating"></label>
+                            </li>
+                        </ul>
+                    </div> 
                 </div>
-                <a href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <p>Copyright © 2018 Dlk • Design Life Kids</p>
                 <a href="#">Web Design — Direct Line Development</a>
             </div>
         </div>

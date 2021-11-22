@@ -34,61 +34,61 @@
             </ul>
         </nav>
         <a href="#"><img src="img/serch.svg" alt="search" class="header__loop"></a>
-        <a class="header-link" href="contact.html">Contact  Us</a>
+        <a class="header_contact_us" href="contact.html">Contact  Us</a>
     </header>
     
     <main class="container">
-        <section class="contactus_margin">
-            <h1 class="contactus__title">
-                Contact  Us
-            </h1>
-            <nav class="breadcrumb">
-                <ul class="breadcrumb__list undoted">
-                    <li class="breadcrumb__item">
-                        <a href="index.html" class="breadcrumb__link">Home</a>
-                    </li>
-                    <li class="breadcrumb__item">
-                        <a href="#" class="breadcrumb__link breadcrumb__link_active">Contact us</a>
-                    </li>
-                </ul>
-            </nav>
-        </section>
-        <section class="contact-us">
-            <form action="#" class="contact__form">
-                <fieldset>
-                    <div class="label-wrapper">
-                        <label for="input-name">Name</label>
-                        <input type="text" id="input-name" class="contact__input" placeholder="Ivan Ivanov">
-                    </div>
-                </fieldset>
-                <fieldset class="field_2_column">
-                    <div class="label-wrapper">
-                        <label for="input-phone">Phone</label>
-                        <input type="number" id="input-phone" class="contact__input" required>
-                    </div>
-                    <div class="label-wrapper">
-                        <label for="input-email">Email</label>
-                        <input type="email" id="input-email" class="contact__input" required>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <div class="label-wrapper">
-                        <label>Message</label>
-                        <textarea cols="30" rows="8" aria-label="textarea"></textarea>
-                    </div>
-                </fieldset>
-                <fieldset>
-                    <div class="label-wrapper">
-                        <input type="checkbox" id="check-agreement" class="checkbox-input">
-                        <label for="check-agreement" class="checkbox-label" tabindex="0">By clicking on the button, you consent to the processing of your personal data</label>
-                    </div>
-                </fieldset>
-                <button type="submit" class="button contactus__button">Submit</button>
-            </form>
-            <div class="text_widht">
-                <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
-                <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
-                <h3>An expert is waiting to help you!</h3>
+        <section>
+            <div class="page__margin_top">
+                <h1 class="page__title">Contact  Us</h1>
+                <nav class="breadcrumb">
+                    <ul class="breadcrumb__list undoted">
+                        <li class="breadcrumb__item">
+                            <a href="index.html" class="breadcrumb__link">Home</a>
+                        </li>
+                        <li class="breadcrumb__item">
+                            <span class="breadcrumb__link breadcrumb__link_active">Contact us</span>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="contact-us">
+                <form action="#" class="contact__form">
+                    <fieldset>
+                        <div class="label-wrapper">
+                            <label for="input-name">Name</label>
+                            <input type="text" id="input-name" class="contact__input" placeholder="Ivan Ivanov">
+                        </div>
+                    </fieldset>
+                    <fieldset class="field_2_column">
+                        <div class="label-wrapper">
+                            <label for="input-phone">Phone</label>
+                            <input type="number" id="input-phone" class="contact__input" required>
+                        </div>
+                        <div class="label-wrapper">
+                            <label for="input-email">Email</label>
+                            <input type="email" id="input-email" class="contact__input" required>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="label-wrapper">
+                            <label>Message</label>
+                            <textarea cols="30" rows="8" aria-label="textarea"></textarea>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <div class="label-wrapper">
+                            <input type="checkbox" id="check-agreement" class="checkbox-input">
+                            <label for="check-agreement" class="checkbox-label" tabindex="0">By clicking on the button, you consent to the processing of your personal data</label>
+                        </div>
+                    </fieldset>
+                    <button type="submit" class="button contactus__button">Submit</button>
+                </form>
+                <div class="contact_text_widht">
+                    <p>Our support team are on-hand to assist with any issues you are experiencing.</p>
+                    <p>Please use the form to contact us with your needs. Send us a message and we'll respond as soon as possible.</p>
+                    <p class="contact_text_help">An expert is waiting to help you!</p>
+                </div>
             </div>
         </section>
     </main>
@@ -96,7 +96,7 @@
         <div class="container">
             <div class="footer__nav">
                 <div class="footer__menu">
-                    <h4>Navigation</h4>
+                    <p class=footer_p>Navigation</p>
                     <ul class="footer__list undoted">
                         <li>
                             <a href="#">About Us</a>
@@ -118,8 +118,8 @@
                         </li>
                     </ul>
                 </div>
-                <div class="footer__info">
-                    <h4>Customer Information</h4>
+                <div class="footer__menu">
+                    <p class=footer_p>Customer Information</p>
                     <ul class="footer__list undoted">
                         <li>
                             <a href="contact.html">Contact Us</a>
@@ -142,19 +142,19 @@
                     </ul>
                 </div>
                 <div class="footer__contacts">
-                    <h4>Connect</h4>
+                    <p class=footer_p>Connect</p>
                     <div>
                         <form action="#" class="footer__form">
-                            <fieldset class="footer__fieldset">
+                            <fieldset class="subscribe_fieldset">
                                 <div>
                                     <label for="input-footer"></label>
-                                    <input type="email" placeholder="Email" class="footer__input" id="input-footer" />
+                                    <input type="email" placeholder="Email" class="subscribe_input" id="input-footer" />
                                 </div>
                             </fieldset>
                             <button type="submit" class="button contactus__button">Join</button>
                         </form>
                     </div>
-                    <ul class="footer__list footer__linklist undoted">
+                    <ul class="footer__list social_network undoted">
                         <li>
                             <a href="#">
                                 <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -208,26 +208,34 @@
                 </div>
             </div>
             <div class="footer__endinfo">
-                <div class="footer__raiting">
+                <div class="company_raiting">
                     <p>Company Rating</p>
-                    <div class="rating_block">
-                        <input name="rating" value="5" id="rating_5" type="radio" />
-                        <label for="rating_5" class="label_rating"></label>
-
-                        <input name="rating" value="4" id="rating_4" type="radio" />
-                        <label for="rating_4" class="label_rating"></label>
-
-                        <input name="rating" value="3" id="rating_3" type="radio" />
-                        <label for="rating_3" class="label_rating"></label>
-
-                        <input name="rating" value="2" id="rating_2" type="radio" />
-                        <label for="rating_2" class="label_rating"></label>
-
-                        <input name="rating" value="1" id="rating_1" type="radio" />
-                        <label for="rating_1" class="label_rating"></label>
+                    <div class="stars-rating">
+                        <ul class="undoted">
+                            <li>
+                                <input name="rating" value="5" id="rating_5" type="radio" />
+                                <label for="rating_5" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="4" id="rating_4" type="radio" />
+                                <label for="rating_4" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="3" id="rating_3" type="radio" />
+                                <label for="rating_3" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="2" id="rating_2" type="radio" />
+                                <label for="rating_2" class="label_rating"></label>
+                            </li>
+                            <li>
+                                <input name="rating" value="1" id="rating_1" type="radio" />
+                                <label for="rating_1" class="label_rating"></label>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <a href="#">Copyright © 2018 Dlk • Design Life Kids</a>
+                <p>Copyright © 2018 Dlk • Design Life Kids</p>
                 <a href="#">Web Design — Direct Line Development</a>
             </div>
         </div>

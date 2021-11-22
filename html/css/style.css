@@ -20,7 +20,6 @@
 
 .banner_num {
     font-family: "Montserrat", "Comic Sans MS", sans-serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 60px;
     line-height: 73px;
@@ -157,7 +156,6 @@
 }
 .services__text {
     font-family: "Montserrat", "Comic Sans MS", sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
@@ -181,7 +179,6 @@
 .services__arrow > p {
     max-width: 60%;
     font-family: "Open Sans", "Comic Sans MS", sans-serif;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -190,7 +187,7 @@
     padding-top: 4px;
 }
 
-.services__arrow-left {
+.services__arrow_left {
     background-image: url();
 }
 
@@ -198,7 +195,7 @@
     background-image: url();
     margin-left: 6px;
 }
-.services__arrow-left,
+.services__arrow_left,
 .services__arrow-right {
     width: 35px;
     height: 37px;
@@ -251,7 +248,7 @@
     letter-spacing: 2px;
 }
 
-.delivery__item_wrap {
+.delivery__item_act {
     background: rgba(112, 187, 220, 0.2);
     padding: 11px 135px 11px 60px;
 }
@@ -286,7 +283,6 @@
 /*About*/
 .about__title {
     font-family: "Montserrat", "Comic Sans MS", sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
@@ -294,12 +290,12 @@
     color: #1e0606;
 }
 
-.about {
+.design_and_contacts {
     display: flex;
     margin: 92px auto 58px;
 }
-.about__wrapper,
-.about__wrapper_padding {
+.wrapper__design_and_contacts,
+.wrapper__design_and_contacts_padding {
     display: flex;
     flex-direction: column;
     padding-left: 30px;
@@ -309,10 +305,10 @@
     padding-right: 30px;
 }
 
-.about__wrapper_padding {
+.wrapper__design_and_contacts_padding {
     padding-bottom: 70px;
 }
-.about__design {
+.block__design {
     margin-left: -30px;
     display: flex;
     flex-direction: column;
@@ -320,7 +316,7 @@
     width: 543px;
 }
 
-.about__contacts {
+.block__contacts {
     display: flex;
     flex-direction: column;
     align-items: baseline;
@@ -339,7 +335,7 @@
     margin-bottom: -6px;
 }
 
-.about__text {
+.text__design_and_contacts {
     margin: 0px;
     padding: 10px 0 20px 0;
 }

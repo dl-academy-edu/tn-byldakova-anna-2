@@ -22,10 +22,7 @@
 .product__heading {
     padding-left: 119px;
 }
-.product__heading p {
-    text-align: left;
-    margin-top: 28px;
-}
+
 .product__screen {
     display: flex;
 }
@@ -178,23 +175,23 @@
     background: #e5eaf8;
 }
 
-/*SERVICES*/
-.services {
+/*CATEGORIES*/
+.categories {
     margin-bottom: 77px;
 }
 
-.services h2 {
+.categories h2 {
     margin-bottom: 24px;
 }
 
-.services__list {
+.categories__list {
     display: flex;
     flex-wrap: wrap;
     margin-left: -10px;
     margin-right: -10px;
 }
 
-.services__li {
+.categories__li {
     max-width: 280px;
     padding: 50px;
     margin: 10px;
@@ -204,21 +201,21 @@
     height: 270px;
 }
 
-.services__img_one {
+.categories__img_one {
     background: url(../img/apparel_kids.png);
     background-color: #dbe4db;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
 }
-.services__img_two {
+.categories__img_two {
     background: url(../img/Holiday\ shop.png);
     background-color: #eaddd3;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
 }
-.services__img_three {
+.categories__img_three {
     background: url(../img/toys.png);
     background-color: #f8f2da;
     background-repeat: no-repeat;
@@ -227,7 +224,7 @@
     width: 100%;
     margin-right: 300px;
 }
-.services__img_four {
+.categories__img_four {
     background: url(../img/accessories.png);
     background-color: #d5d4e1;
     background-repeat: no-repeat;
@@ -235,7 +232,7 @@
     background-blend-mode: multiply;
     margin-left: 195px;
 }
-.services__img_five {
+.categories__img_five {
     background: url(../img/sale.png);
     background-color: #F3D0DB;
     background-repeat: no-repeat;
@@ -243,16 +240,15 @@
     background-blend-mode: multiply;
     width: 280px;
 }
-.services__img_six {
+.categories__img_six {
     background: url(../img/apparel_adults.png);
     background-color: #E5EAF8;
     background-repeat: no-repeat;
     background-position: center;
     background-blend-mode: multiply;
 }
-.services__text {
+.categories__text {
     font-family: "Montserrat", "Comic Sans MS", sans-serif;
-    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 32px;
@@ -262,20 +258,20 @@
     text-shadow: 0px 0px 40px rgba(147, 3, 3, 0.25);
 }
 
-.catalog_a {
+.product_descript {
     width: 680px;
 }
 
-.catalog_p {
-    font-family: Open Sans;
+.product_descript_text {
+    font-family: "Open Sans";
     font-size: 16px;
     line-height: 22px;
     margin: 25px 0 0 0;
 }
 
 
-.services__text:hover,
-.services__text:active {
+.categories__text:hover,
+.categories__text:active {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #fff;

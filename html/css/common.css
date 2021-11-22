@@ -13,7 +13,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: "Open Sans", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-size: 16px;
     line-height: 22px;
     color: #1e0606;
@@ -26,7 +25,6 @@ a {
 
 h2 {
     font-family:"Montserrat", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: bold;
     font-size: 38px;
     line-height: 46px;
@@ -35,9 +33,17 @@ h2 {
     margin: 0;
 }
 
-h4 {
+h3 {
+    font-family: "Montserrat", "Comic Sans MS", "sans-serif";
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 34px;
+    text-transform: uppercase;
+    color: #c29974;
+}
+
+.footer_p {
     font-family:"Open Sans", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -60,15 +66,7 @@ h4 {
     margin-top: 25px;
 }
 
-h3 {
-    font-family: "Montserrat", "Comic Sans MS", "sans-serif";
-    font-style: normal;
-    font-weight: 600;
-    font-size: 26px;
-    line-height: 34px;
-    text-transform: uppercase;
-    color: #c29974;
-}
+
 
 .button {
     background: #000000;
@@ -110,9 +108,7 @@ h3 {
     margin: 0;
 }
 
-.delivery__heading,
-.about__heading,
-.products__heading {
+.block_header {
     font-family:"Crimson Text", "Comic Sans MS", "sans-serif";
     font-style: italic;
     font-weight: normal;
@@ -132,7 +128,6 @@ h3 {
 }
 .all__money {
     font-family: "Open Sans", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 33px;
@@ -142,11 +137,11 @@ h3 {
 }
 
 /*MINI NAV*/
-.contactus_margin {
+.page__margin_top {
     margin-top: 14px;
 }
 
-.contactus__title {
+.page__title {
     font-family: "Montserrat";
     font-weight: bold;
     font-size: 40px;
@@ -178,9 +173,6 @@ h3 {
     letter-spacing: 1px;
 }
 
-.breadcrumb__link {
-    text-transform: capitalize;
-}
 
 .breadcrumb__link_active {
     color: #1e0606;
@@ -215,7 +207,10 @@ label {
 
 input {
     height: 50px;
+
 }
+
+
 input:focus,
 textarea:focus {
     border-color: #c29974;
@@ -256,7 +251,6 @@ textarea {
 .checkbox-label {
     position: relative;
     font-family: "Roboto", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
@@ -317,7 +311,6 @@ textarea {
     margin-bottom: 16px;
     padding-right: 20px;
     font-family: "Open Sans", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
@@ -328,7 +321,7 @@ textarea {
 .header__loop {
     margin-right: 34px;
 }
-.header-link {
+.header_contact_us {
     font-family: "Open Sans", "Comic Sans MS", "sans-serif";
     font-weight: bold;
     font-size: 14px;
@@ -341,14 +334,14 @@ textarea {
 .logo:hover,
 .header__link:hover,
 .header__loop:hover,
-.header-link:hover {
+.header_contact_us:hover {
     opacity: 0.6;
 }
 
 .logo:active,
 .header__link:active,
 .header__loop:active,
-.header-link:active {
+.header_contact_us:active {
     opacity: 0.2;
 }
 
@@ -379,21 +372,8 @@ footer {
     margin-bottom: 11px;
 }
 
-.footer__info {
-    max-width: 400px;
-    width: 100%;
-}
-
-.footer__contacts {
-    max-width: 380px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
 .footer__list > li > a {
     font-family: "Open Sans", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -414,7 +394,6 @@ footer {
 .footer__endinfo,
 .footer__endinfo > a {
     font-family: "Open Sans", "Comic Sans MS", "sans-serif";
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 22px;
@@ -442,7 +421,7 @@ footer {
     display: flex;
 }
 
-.footer__fieldset {
+.subscribe_fieldset {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -452,7 +431,7 @@ footer {
 .footer__fieldset label {
     margin-bottom: 0;
 }
-.footer__input {
+.subscribe_input {
     width: 312px;
     height: 40px;
     background-color: #666666;
@@ -461,12 +440,12 @@ footer {
     color: #ffffff;
 }
 
-.footer__input:hover,
-.footer__input:focus {
+.subscribe_input:hover,
+.subscribe_input:focus {
     border: 1px solid #c29974;
 }
 
-.footer__fieldset input::placeholder {
+.subscribe_fieldset input::placeholder {
     font-family: "Open Sans", "Comic Sans MS", sans-serif;
     font-weight: normal;
     font-size: 16px;
@@ -474,48 +453,46 @@ footer {
     color: #ebebeb;
 }
 
-.footer__linklist {
+.social_network {
     display: flex;
 }
 
-.footer__linklist li {
+.social_network li {
     margin: 0;
     margin-right: 10px;
 }
 
-.footer__linklist li:hover,
+.social_network li:hover,
 .footer__list li:hover {
     opacity: 0.6;
 }
 
-.footer__raiting {
+.company_raiting {
     align-items: center;
     display: flex;
+    margin-right: 30px;
 }
-.footer__raiting a {
+.company_raiting a {
     margin-right: 97px;
     margin-left: 63px;
 }
 
-.footer__raiting p {
+.company_raiting p {
     margin-top: 21px;
     margin-right: 20px;
 }
 
-.rating_block {
+.stars-rating {
     width: 150px;
     height: 25px;
     padding-top: 10px;
     padding-left: -13px;
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
 }
 
-.rating_block label {
+.stars-rating label {
     margin-right: -4px;
 }
-.rating_block input[type="radio"] {
+.stars-rating input[type="radio"] {
     display: none;
 }
 .label_rating {
@@ -527,8 +504,8 @@ footer {
     cursor: pointer;
 }
 
-.rating_block .label_rating:hover, 
-  .rating_block .label_rating:hover ~ .label_rating, 
-  .rating_block input[type="radio"]:checked ~ .label_rating {
+.stars-rating .label_rating:hover, 
+  .stars-rating .label_rating:hover ~ .label_rating, 
+  .stars-rating input[type="radio"]:checked ~ .label_rating {
     background: url(../img/Starafter.svg) no-repeat 50% 0;
 }
